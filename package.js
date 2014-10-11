@@ -1,11 +1,11 @@
 Package.describe({
   summary: "Phantom JS wrapper",
-  version: "1.0.0",
+  version: "1.0.1",
   git: "https://github.com/dfischer/meteor-phantomjs"
 });
 
 Npm.depends({
-	'phantomjs': '1.9.7-15'
+	'phantomjs': '1.9.10'
 });
 
 Package.onUse(function(api) {
