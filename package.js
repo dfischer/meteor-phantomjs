@@ -1,7 +1,7 @@
 Package.describe({
   name: "dfischer:phantomjs",
   summary: "Phantom JS wrapper",
-  version: "1.0.2",
+  version: "1.0.3",
   git: "https://github.com/dfischer/meteor-phantomjs"
 });
 
