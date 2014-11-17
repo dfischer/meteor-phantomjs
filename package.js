@@ -1,7 +1,7 @@
 Package.describe({
   name: "dfischer:phantomjs",
   summary: "Phantom JS wrapper",
-  version: "1.0.3",
+  version: "1.0.4",
   git: "https://github.com/dfischer/meteor-phantomjs"
 });
 
@@ -10,7 +10,7 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom(['METEOR@0.9.1.1', 'METEOR@1.0'])
+  api.versionsFrom(['METEOR@0.9.1.1', 'METEOR@1.0']);
   api.addFiles('dfischer:phantomjs.js', 'server');
 });
 
